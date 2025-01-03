@@ -131,3 +131,5 @@ Everything here is usable and non-copyrighted. Credit goes to the person who pro
 9. [Image/Label Cyclers](https://discord.com/channels/494194063730278411/1090928017431339071) (Image Gallery sort of)
 
 10. [Preserve Title Text](https://wiki.bedrock.dev/json-ui/preserve-title-texts)
+
+11. Custom Toggle (with any state texture you want): [./custom_toggles.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_toggle.json)
