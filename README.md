@@ -66,4 +66,6 @@ Everything here is usable and non-copyrighted. Credit goes to the person who pro
 
 10. [Preserve Title Text](https://wiki.bedrock.dev/json-ui/preserve-title-texts)
 
-11. Custom Toggle (with any state texture you want): [./custom_toggles.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_toggle.json)
+11. Custom Toggle (with any state texture you want): [./custom_toggle.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_toggle.json)
+
+12. Custom Progress Bar: [./custom_progress_bar](https://github.com/LeGend077/json-ui-resources/blob/main/custom_progress_bar.json)
