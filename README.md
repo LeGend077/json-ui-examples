@@ -54,73 +54,7 @@ Everything here is usable and non-copyrighted. Credit goes to the person who pro
 
 4. [Custom Element Factories](https://discord.com/channels/523663022053392405/868073903703093259/994365337401315498)
 
-5. Custom Slider:
-
-   
-```json
-{
-    "start_screen_content": {
-        "modifications": [
-            {
-                "array_name": "controls",
-                "operation": "insert_front",
-                "value": [
-                    {
-                        "my_slider@common.slider": {
-                            "size": [
-                                40,
-                                20
-                            ],
-                            "anchor_from": "top_left",
-                            "anchor_to": "top_left",
-                            "offset": [
-                                10,
-                                10
-                            ],
-                            "$slider_name": "my_slider",
-                            "$slider_steps": 10,
-                            "property_bag": {
-                                "#slider_steps": 10,
-                                "#slider_value": 0
-                            }
-                        }
-                    },
-                    {
-                        "conditional_image": {
-                            "type": "image",
-                            "texture": "textures/items/apple",
-                            "anchor_from": "left_middle",
-                            "anchor_to": "left_middle",
-                            "size": [
-                                200,
-                                200
-                            ],
-                            "bindings": [
-                                {
-                                    "binding_type": "view",
-                                    "source_control_name": "my_slider",
-                                    "source_property_name": "#slider_value",
-                                    "target_property_name": "#val"
-                                },
-                                {
-                                    "binding_type": "view",
-                                    "source_property_name": "(#val * 1)",
-                                    "target_property_name": "#float_val"
-                                },
-                                {
-                                    "binding_type": "view",
-                                    "source_property_name": "(#float_val / 10)",
-                                    "target_property_name": "#alpha"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        ]
-    }
-}
-```
+5. Custom Slider: [./custom_slider.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_slider.json)
 
 6. [Draggable Element](https://discord.com/channels/494194063730278411/1129449905388269647) (Bedrock-OSS Discord Server)
 
