@@ -1,0 +1,61 @@
+{
+  // You can combine it with preserve title text
+  "namespace": "abc",
+  "bar_container": {
+    "type": "image",
+    "texture": "textures/ui/experiencebarempty",
+    "size": [
+      6,
+      70
+    ],
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "offset": [
+      -4,
+      -4
+    ],
+    "controls": [
+      {
+        "bar_full": {
+          "type": "image",
+          "layer": 2,
+          "texture": "textures/ui/experiencebarfull",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "clip_pixelperfect": false,
+          "clip_direction": "down",
+          "$clip_max": 100,
+          "$one": 1.0,
+          "bindings": [
+            {
+              "binding_name": "#hud_title_text_string",
+              "binding_name_override": "#text",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#text * $one)",
+              "target_property_name": "#number"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(($clip_max - #number) / $clip_max)",
+              "target_property_name": "#clip_ratio"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "factory": {
+    "type": "panel",
+    "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+        "hud_title_text": "bar_container@abc.bar_container"
+      }
+    }
+  }
+}
