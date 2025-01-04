@@ -69,3 +69,16 @@ Everything here is usable and non-copyrighted. Credit goes to the person who pro
 11. Custom Toggle (with any state texture you want): [./custom_toggle.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_toggle.json)
 
 12. Custom Progress Bar: [./custom_progress_bar](https://github.com/LeGend077/json-ui-resources/blob/main/custom_progress_bar.json)
+
+13. Text/Input Box (text binding: `#item_name`):
+```json
+{
+  "input_box@common.text_edit_box": {
+    "size": [ "100%", 28 ],
+    "max_length": 99,
+    // "$text_edit_box_text_type": "NumberChars", (If you want only numbers)
+    "$text_edit_text_control": "input_text_control",
+    "$place_holder_text": "Input here..",
+    "$text_alignment": "center"
+}
+```
