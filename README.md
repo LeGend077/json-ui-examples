@@ -82,3 +82,5 @@ Everything here is usable and non-copyrighted. Credit goes to the person who pro
     "$text_alignment": "center"
 }
 ```
+
+14. Change Size and Offset using Bindings: [./size_offset.json](https://github.com/LeGend077/json-ui-resources/blob/main/size_offset.json)
