@@ -1,8 +1,6 @@
-# JSON UI Resources
+# JSON UI Examples
 
-Find useful JSON UI snippets and resources for your Minecraft Resource Pack.
-
-Everything here is usable and non-copyrighted. Credit goes to the person who provided the resource. **Contribute if possible**!
+Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Credit goes to the person who provided the resource.
 
 ## Links
 
