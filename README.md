@@ -52,7 +52,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 
 4. [Custom Element Factories](https://discord.com/channels/523663022053392405/868073903703093259/994365337401315498)
 
-5. Custom Slider: [./custom_slider.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_slider.json)
+5. Custom Slider: [./custom_slider.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_slider.json)
 
 6. [Draggable Element](https://discord.com/channels/494194063730278411/1129449905388269647) (Bedrock-OSS Discord Server)
 
@@ -64,9 +64,9 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 
 10. [Preserve Title Text](https://wiki.bedrock.dev/json-ui/preserve-title-texts)
 
-11. Custom Toggle (with any state texture you want): [./custom_toggle.json](https://github.com/LeGend077/json-ui-resources/blob/main/custom_toggle.json)
+11. Custom Toggle (with any state texture you want): [./custom_toggle.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_toggle.json)
 
-12. Custom Progress Bar: [./custom_progress_bar](https://github.com/LeGend077/json-ui-resources/blob/main/custom_progress_bar.json)
+12. Custom Progress Bar: [./custom_progress_bar](https://github.com/LeGend077/json-ui-examples/blob/main/custom_progress_bar.json)
 
 13. Text/Input Box (text binding: `#item_name`):
 ```json
@@ -81,4 +81,4 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 }
 ```
 
-14. Change Size and Offset using Bindings: [./size_offset.json](https://github.com/LeGend077/json-ui-resources/blob/main/size_offset.json)
+14. Change Size and Offset using Bindings: [./size_offset.json](https://github.com/LeGend077/json-ui-examples/blob/main/size_offset.json)
