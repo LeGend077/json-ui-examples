@@ -106,7 +106,7 @@
         "orientation": "horizontal",
         "size": [
             "default",
-            8
+            9
         ],
         "bindings": [
             {
@@ -116,52 +116,52 @@
         ],
         "controls": [
             {
-                "icon_1@hud.thirst_icon_template": {
+                "icon_1@hud.heart_icon_template": {
                     "$condition": 2
                 }
             },
             {
-                "icon_2@hud.thirst_icon_template": {
+                "icon_2@hud.heart_icon_template": {
                     "$condition": 4
                 }
             },
             {
-                "icon_3@hud.thirst_icon_template": {
+                "icon_3@hud.heart_icon_template": {
                     "$condition": 6
                 }
             },
             {
-                "icon_4@hud.thirst_icon_template": {
+                "icon_4@hud.heart_icon_template": {
                     "$condition": 8
                 }
             },
             {
-                "icon_5@hud.thirst_icon_template": {
+                "icon_5@hud.heart_icon_template": {
                     "$condition": 10
                 }
             },
             {
-                "icon_6@hud.thirst_icon_template": {
+                "icon_6@hud.heart_icon_template": {
                     "$condition": 12
                 }
             },
             {
-                "icon_7@hud.thirst_icon_template": {
+                "icon_7@hud.heart_icon_template": {
                     "$condition": 14
                 }
             },
             {
-                "icon_8@hud.thirst_icon_template": {
+                "icon_8@hud.heart_icon_template": {
                     "$condition": 16
                 }
             },
             {
-                "icon_9@hud.thirst_icon_template": {
+                "icon_9@hud.heart_icon_template": {
                     "$condition": 18
                 }
             },
             {
-                "icon_10@hud.thirst_icon_template": {
+                "icon_10@hud.heart_icon_template": {
                     "$condition": 20
                 }
             }
