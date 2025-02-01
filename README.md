@@ -66,7 +66,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 
 11. Custom Toggle (with any state texture you want): [./custom_toggle.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_toggle.json)
 
-12. Custom Progress Bar: [./custom_progress_bar](https://github.com/LeGend077/json-ui-examples/blob/main/custom_progress_bar.json)
+12. Custom Progress Bar: [./custom_progress_bar.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_progress_bar.json)
 
 13. Text/Input Box (text binding: `#item_name`):
 ```json
@@ -82,3 +82,5 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 ```
 
 14. Change Size and Offset using Bindings: [./size_offset.json](https://github.com/LeGend077/json-ui-examples/blob/main/size_offset.json)
+
+15. Progress Icons like heart or hunger bars: [./custom_heart_or_hunger_like_progress_bar_icons.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_heart_or_hunger_like_progress_bar_icons.json)
