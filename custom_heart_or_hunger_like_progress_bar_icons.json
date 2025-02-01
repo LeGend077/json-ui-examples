@@ -22,7 +22,7 @@
         ],
         "controls": [
             {
-                "thirst_icon_empty": {
+                "heart_icon_empty": {
                     "type": "image",
                     "$update_string": "hp:",
                     "texture": "textures/ui/heart_background",
