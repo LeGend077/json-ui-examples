@@ -103,3 +103,5 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
   }
 }
 ```
+
+19. [Custom Crafting Table UI](https://discord.com/channels/523663022053392405/1330589149711040573/1330589149711040573)
