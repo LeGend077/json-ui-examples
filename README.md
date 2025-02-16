@@ -97,7 +97,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 {
   "grayscaled_image": {
     "type": "image",
-    "size": [ "16, 16 ],
+    "size": [ 16, 16 ],
     "texture": "textures/items/apple",
     "color": [0.4666, 0.4666, 0.4666]
   }
