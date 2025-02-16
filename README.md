@@ -80,6 +80,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
     "$text_edit_text_control": "input_text_control",
     "$place_holder_text": "Input here..",
     "$text_alignment": "center"
+  }
 }
 ```
 
@@ -90,3 +91,15 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 16. Custom Title base NPC Screen Form: [./custom_npc_screen_layout_reference_file.json](https://github.com/LeGend077/json-ui-examples/blob/main/custom_npc_screen_layout_reference_file.json)
 
 17. [Animated Toggle](https://discord.com/channels/523663022053392405/1338743808187174922/1338743808187174922)
+
+18. [Grayscaled Image](https://discord.com/channels/523663022053392405/1223427312192716860):
+```json
+{
+  "grayscaled_image": {
+    "type": "image",
+    "size": [ "16, 16 ],
+    "texture": "textures/items/apple",
+    "color": [0.4666, 0.4666, 0.4666]
+  }
+}
+```
