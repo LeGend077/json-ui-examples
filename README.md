@@ -110,7 +110,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 
 21. [Search bar with Textbox](https://discord.com/channels/523663022053392405/1246801922917138512)
 
-22. Make Server Form unclosable:
+22. [Make Server Form unclosable](https://discord.com/channels/523663022053392405/1067870274894172260/1342318716179976253):
 ```json
 {
     "namespace": "server_form",
