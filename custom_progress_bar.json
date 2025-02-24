@@ -1,7 +1,7 @@
 {
     "namespace": "hud",
 
-    "hud_title_text": {
+    "hud_title_text/title_frame/title": {
         "modifications": [
             {
                 "array_name": "bindings",
