@@ -125,3 +125,5 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
     }
 }
 ```
+
+23. [Modify item lore/hover text (ui_common.json)](https://discord.com/channels/523663022053392405/1067870274894172260/1332401225693532261)
