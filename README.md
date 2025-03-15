@@ -9,6 +9,7 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 1. For Beginners: [https://wiki.bedrock.dev/json-ui/json-ui-intro](https://wiki.bedrock.dev/json-ui/json-ui-intro)
 2. Documentation: [https://wiki.bedrock.dev/json-ui/json-ui-documentation](https://wiki.bedrock.dev/json-ui/json-ui-documentation)
 3. Wiki: [https://wiki.bedrock.dev/json-ui/](https://wiki.bedrock.dev/json-ui/)
+4. Chest UI Editor Tool by Minato: [https://minato-mba.github.io/web-apps/chest-ui-editor/](https://minato-mba.github.io/web-apps/chest-ui-editor/)
 
 ## Codes
 
