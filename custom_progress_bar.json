@@ -29,7 +29,7 @@
                     "type": "image",
                     "size": ["100%", "100%"],
                     "layer": 1,
-                    "$one": 1,
+                    "$one": 1.0,
                     "$max_health": 20.0,
                     "clip_direction": "left",
                     "clip_pixelperfect": false,
