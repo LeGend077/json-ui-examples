@@ -13,6 +13,10 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 5. JSON UI VSCode Extension by Dingsel: [https://marketplace.visualstudio.com/items?itemName=Dingsel.bedrock-ui](https://marketplace.visualstudio.com/items?itemName=Dingsel.bedrock-ui)
 6. JSON UI Tutorial Playlist I recommend: [https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw](https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw)
 
+## Tutorials
+
+1. [Editing Server Forms](https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw) 
+
 ## Codes
 
 1. Custom Text Button and Toggle:
