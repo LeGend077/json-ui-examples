@@ -1,8 +1,11 @@
 # JSON UI Examples
 
-⬇️ Scroll Down ⬇️
+Find useful JSON UI snippets and resources for your Minecraft Bedrock Resource Pack. Credit goes to the person who provided the resource or me if not specified.
 
-Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Credit goes to the person who provided the resource or me if not specified.
+Content: 
+- [Links](#Links)
+- [Tutorials](#Tutorials)
+- [Code Snippets](#Codes)
 
 ## Links
 
@@ -15,7 +18,8 @@ Find useful JSON UI snippets and resources for your Minecraft Resource Pack. Cre
 
 ## Tutorials
 
-1. [Editing Server Forms](https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw) 
+1. [Editing Server Forms](https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw)
+2. [Creating Custom Progress Bar](https://www.youtube.com/watch?v=_J5Bi-krhw8)
 
 ## Codes
 
