@@ -144,6 +144,7 @@ Content:
 ## Creations
 
 <details>
+  
   <summary>luckywars_selectors.json</summary>
   
 ```json
@@ -438,6 +439,7 @@ Content:
 </details>
 
 <details>
+  
   <summary>npc_interact_screen.json</summary>
   
 ```json
@@ -518,6 +520,7 @@ Content:
 }  
   
 ```
+
 </details>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F57yradtxH0?si=ztofQt3DOJO8DV4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![abcd](https://img.youtube.com/vi/F57yradtxH0/0.jpg)](https://www.youtube.com/watch?v=F57yradtxH0)
