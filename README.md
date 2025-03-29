@@ -6,6 +6,7 @@ Content:
 - [Links](#Links)
 - [Tutorials](#Tutorials)
 - [Code Snippets](#Codes)
+- [UI Creations/Layouts with Code](#Creations)
 
 ## Links
 
@@ -139,3 +140,384 @@ Content:
 ```
 
 23. [Modify item lore/hover text (ui_common.json)](https://discord.com/channels/523663022053392405/1067870274894172260/1332401225693532261)
+
+## Creations
+
+<details>
+  <summary>luckywars_selectors.json</summary>
+  
+```json
+
+  {
+    "namespace": "lw:selector",
+    "close_button_holder": {
+        "type": "panel",
+        "size": [
+            "100%c",
+            "100%c"
+        ],
+        "anchor_from": "top_right",
+        "anchor_to": "bottom_right",
+        "controls": [
+            {
+                "close@npc_interact.close_button_base": {
+                    "$close_button_to_button_id": "button.exit_student",
+                    "offset": [
+                        -5,
+                        25
+                    ],
+                    "$default_texture": "textures/ui/close_button_default_light",
+                    "$pressed_texture": "textures/ui/close_button_hover",
+                    "$hover_texture": "textures/ui/close_button_pressed",
+                    "$visibility_binding_name": "#student_view_visible"
+                }
+            }
+        ]
+    },
+    "divider": {
+        "type": "image",
+        "texture": "textures/ui/divider2",
+        "size": [
+            "100% - 75px",
+            2
+        ],
+        "offset": [
+            0,
+            31
+        ],
+        "anchor_from": "top_middle"
+    },
+    "title_text@common_dialogs.standard_title_label": {
+        "$text_name": "#title_text",
+        "$title_text_binding_type": "global",
+        "$title_binding_condition": "none",
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "font_scale_factor": 1.5,
+        "size": [
+            "default",
+            "default"
+        ],
+        "color": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "font_type": "MinecraftTen",
+        "shadow": false,
+        "offset": [
+            0,
+            8
+        ]
+    },
+    "main_panel": {
+        "type": "panel",
+        "size": [
+            225,
+            220
+        ],
+        "controls": [
+            {
+                "close_button@lw:selector.close_button_holder": {
+                }
+            },
+            {
+                "title_text@lw:selector.title_text": {
+                }
+            },
+            {
+                "divider@lw:selector.divider": {
+                }
+            },
+            {
+                "dialog_panel": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        "100%"
+                    ],
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "controls": [
+                        {
+                            "dialog_border": {
+                                "type": "image",
+                                "size": [
+                                    "100%",
+                                    "100%"
+                                ],
+                                "layer": 1,
+                                "texture": "textures/ui/dialog_background_hollow_4_thin"
+                            }
+                        },
+                        {
+                            "dialog_background": {
+                                "type": "image",
+                                "size": [
+                                    "100% - 4px",
+                                    "100% - 4px"
+                                ],
+                                "layer": -2,
+                                "texture": "textures/ui/Black",
+                                "alpha": 0.7
+                            }
+                        },
+                        {
+                            "scroll@lw:selector.dialog_content_scroll": {
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "dialog_content_scroll@common.scrolling_panel": {
+        "anchor_to": "top_middle",
+        "anchor_from": "top_middle",
+        "$show_background": false,
+        "size": [
+            "100% - 10px",
+            "100% - 29px"
+        ],
+        "$scrolling_content": "lw:selector.dialog_content",
+        "$scroll_size": [
+            5,
+            "100%"
+        ],
+        "$scrolling_pane_size": [
+            "100% - 10px",
+            "100% - 29px"
+        ],
+        "$scrolling_pane_offset": [
+            4,
+            36
+        ],
+        "$scroll_bar_right_padding_size": [
+            0,
+            0
+        ]
+    },
+    "dialog_content": {
+        "type": "stack_panel",
+        "orientation": "vertical",
+        "size": [
+            "100%",
+            "100%c"
+        ],
+        "controls": [
+            {
+                "label_offset": {
+                    "type": "panel",
+                    "size": [
+                        "100% - 2px",
+                        "100%c"
+                    ],
+                    "controls": [
+                        {
+                            "npc_message@npc_interact.npc_message": {
+                                "$text_box_text_color": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "offset": [
+                                    3,
+                                    0
+                                ],
+                                "$color": [
+                                    1,
+                                    1,
+                                    1,
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "buttons_grid": {
+                    "type": "stack_panel",
+                    "orientation": "vertical",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "size": [
+                        "100%",
+                        "100%c"
+                    ],
+                    "collection_name": "student_buttons_collection",
+                    "controls": [
+                        {
+                            "0@student_button": {
+                                "collection_index": 0
+                            }
+                        },
+                        {
+                            "1@student_button": {
+                                "collection_index": 1
+                            }
+                        },
+                        {
+                            "2@student_button": {
+                                "collection_index": 2
+                            }
+                        },
+                        {
+                            "3@student_button": {
+                                "collection_index": 3
+                            }
+                        },
+                        {
+                            "4@student_button": {
+                                "collection_index": 4
+                            }
+                        },
+                        {
+                            "5@student_button": {
+                                "collection_index": 5
+                            }
+                        },
+                        {
+                            "6@student_button": {
+                                "collection_index": 6
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "student_button@common.empty_panel": {
+        "size": [
+            "100%",
+            30
+        ],
+        "controls": [
+            {
+                "button@common_buttons.light_text_button": {
+                    "$button_type_panel": "npc_interact.student_button_label_panel",
+                    "$pressed_button_name": "button.student_button",
+                    "layer": 4,
+                    "size": [
+                        "100% - 4px",
+                        "100% - 2px"
+                    ],
+                    "bindings": [
+                        {
+                            "binding_type": "collection_details",
+                            "binding_collection_name": "student_buttons_collection",
+                            "binding_collection_prefix": "student_buttons"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_name": "#student_button_visible",
+                "binding_type": "collection",
+                "binding_name_override": "#visible",
+                "binding_collection_name": "student_buttons_collection"
+            }
+        ]
+    },
+    "luckywars_selector": {
+        "type": "panel",
+        "controls": [
+            {
+                "mp@lw:selector.main_panel": {
+                }
+            }
+        ]
+    }
+}
+
+```
+</details>
+
+<details>
+  <summary>npc_interact_screen.json</summary>
+  
+```json
+  
+{
+    "choose_student_panel": {
+        "type": "panel",
+        "controls": [
+            {
+                "student@common_dialogs.form_fitting_main_panel_no_buttons": {
+                    "$panel_size": [
+                        320,
+                        "100%cm"
+                    ],
+                    "size": "$panel_size",
+                    "$child_control": "npc_interact.student_view_content",
+                    "$title_panel": "common_dialogs.standard_title_label",
+                    "$text_name": "#title_text",
+                    "$title_text_binding_type": "global",
+                    "$show_close_button": false,
+                    "$custom_background": "common_dialogs.dialog_background_opaque_with_child",
+                    "bindings": [
+                        {
+                            "binding_type": "global",
+                            "binding_name": "#title_text"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "(((#title_text - 'MENU') = #title_text) and ((#title_text - 'GameSelector') = #title_text) and ((#title_text - 'HELP') = #title_text))",
+                            "target_property_name": "#visible"
+                        }
+                    ]
+                }
+            },
+            {
+                "luckywars_selector@lw:selector.luckywars_selector": {
+                    "bindings": [
+                        {
+                            "binding_type": "global",
+                            "binding_name": "#title_text"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "(not ((#title_text - 'MENU') = #title_text) or not ((#title_text - 'GameSelector') = #title_text) or not ((#title_text - 'HELP') = #title_text))",
+                            "target_property_name": "#visible"
+                        }
+                    ]
+                }
+            }
+        ],
+        "bindings": [
+            {
+                "binding_name": "#student_view_visible",
+                "binding_name_override": "#visible",
+                "binding_type": "global"
+            }
+        ]
+    },
+    "npc_screen_contents": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "remove",
+                "control_name": "student"
+            },
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    {
+                        "student_screen@npc_interact.choose_student_panel": {
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}  
+  
+```
+</details>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F57yradtxH0?si=ztofQt3DOJO8DV4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
