@@ -141,6 +141,100 @@ Content:
 
 23. [Modify item lore/hover text (ui_common.json)](https://discord.com/channels/523663022053392405/1067870274894172260/1332401225693532261)
 
+24. [Animated Button States](https://github.com/PixelAlphas/Collapse-UI/commit/b9811b7f20e1fe0cb4a6f8052ae5cf78569ada37):
+```json
+{
+  "animated_states_button@common.button": {
+        "size": [
+            100,
+            20
+        ],
+        "locked_control": "locked",
+        "default_control": "default",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "button_mappings": [
+            {
+                "from_button_id": "button.menu_select",
+                "to_button_id": "$pressed_button_name",
+                "mapping_type": "pressed"
+            },
+            // this allows us to use $pressed_button_name in animation_reset_name property.
+            {
+                "to_button_id": "$pressed_button_name",
+                "mapping_type": "pressed"
+            },
+            {
+                "from_button_id": "button.menu_ok",
+                "to_button_id": "$pressed_button_name",
+                "mapping_type": "focused"
+            }
+        ],
+        "controls": [
+            {
+                "default": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "animation_reset_name": "$pressed_button_name",
+                    "anims": [
+                        {
+                            "alphaIn": {
+                                "anim_type": "alpha",
+                                "from": 0,
+                                "to": 1,
+                                "duration": 0.5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "hover": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "animation_reset_name": "$pressed_button_name",
+                    "color": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "anims": [
+                        {
+                            "alphaIn": {
+                                "anim_type": "alpha",
+                                "from": 0,
+                                "to": 1,
+                                "duration": 0.5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "pressed": {
+                    "type": "image",
+                    "texture": "textures/ui/White",
+                    "animation_reset_name": "$pressed_button_name",
+                    "anims": [
+                        {
+                            "alphaIn": {
+                                "anim_type": "alpha",
+                                "from": 0,
+                                "to": 1,
+                                "duration": 0.5
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "locked@common.empty_panel": {}
+            }
+        ]
+    }
+}
+```
+
 ## Creations
 
 ### NPC Screen with Server Form Layout
