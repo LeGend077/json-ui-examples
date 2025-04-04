@@ -22,6 +22,7 @@ Content:
 1. [Editing Server Forms](https://www.youtube.com/watch?v=QhJkCDIZ-NU&list=PLu4XsMgGIrCqdU44JbWvgv1z_kt_ZpJyw)
 2. [Creating Custom Progress Bar](https://www.youtube.com/watch?v=_J5Bi-krhw8)
 3. [AgentMindStorm's UI Basics](https://www.youtube.com/watch?v=K7UyzmmML-g)
+4. [Smell of Curry's Master UI Guide](https://www.youtube.com/watch?v=jNNok7N5MLY)
 
 ## Codes
 
