@@ -236,6 +236,8 @@ Content:
 }
 ```
 
+25. [Splitting String](https://discord.com/channels/523663022053392405/1343184050311139349)
+
 ## Creations
 
 ### NPC Screen with Server Form Layout
