@@ -24,6 +24,7 @@ Content:
 2. [Creating Custom Progress Bar](https://www.youtube.com/watch?v=_J5Bi-krhw8)
 3. [AgentMindStorm's UI Basics](https://www.youtube.com/watch?v=K7UyzmmML-g)
 4. [Smell of Curry's Master UI Guide](https://www.youtube.com/watch?v=jNNok7N5MLY)
+5. [Dakonblackrose's Settings Tab Template](https://www.youtube.com/watch?v=yO06YVyohxY)
 
 ## Codes
 
