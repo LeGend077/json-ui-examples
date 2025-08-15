@@ -1,14 +1,14 @@
 {
     "namespace": "scroll_panel",
 
-    "new_scroll_bar_and_track@global.empty_panel": {
+    "new_scroll_bar_and_track@common.empty_panel": {
         "size": "$scroll_stack_size",
         "anchor_from": "right_middle",
         "anchor_to": "right_middle",
         "layer": 8,
         "controls": [
             {
-                "centered_panel@global.empty_panel": {
+                "centered_panel@common.empty_panel": {
                     "size": "$scroll_stack_size",
                     "anchor_from": "center",
                     "anchor_to": "center",
@@ -23,7 +23,7 @@
                             }
                         },
                         {
-                            "scroll_box@global.empty_panel": {
+                            "scroll_box@common.empty_panel": {
                                 "controls": [
                                     {
                                         "box": {
@@ -90,21 +90,22 @@
 
         "controls": [
             {
-                "stack_panel@global.empty_stack": {
+                "stack_panel": {
+                    "type": "stack_panel",
                     "orientation": "horizontal",
                     "anchor_to": "top_left",
                     "anchor_from": "top_left",
                     "size": "$scroll_view_stack_panel_size",
                     "controls": [
                         {
-                            "scroll_viewport_holder@global.empty_panel": {
+                            "scroll_viewport_holder@common.empty_panel": {
                                 "size": "$view_port_size",
                                 "anchor_to": "left_middle",
                                 "anchor_from": "left_middle",
                                 "clips_children": true,
                                 "controls": [
                                     {
-                                        "scrolling_view_port@global.empty_panel": {
+                                        "scrolling_view_port@common.empty_panel": {
                                             "size": "$scroll_view_port_size",
                                             "offset": "$scroll_viewport_offset",
                                             "clips_children": true,
@@ -122,7 +123,7 @@
                             }
                         },
                         {
-                            "filler@global.empty_panel": {
+                            "filler@common.empty_panel": {
                                 "size": "$scroll_bar_left_padding"
                             }
                         },
