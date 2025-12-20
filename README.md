@@ -240,6 +240,8 @@ Content:
 
 25. [Splitting String](https://discord.com/channels/523663022053392405/1343184050311139349)
 
+26. [Animated Progress Bar](https://discord.com/channels/523663022053392405/1430909706251272283/1430909706251272283)
+
 ## Creations
 
 ### NPC Screen with Server Form Layout
