@@ -242,6 +242,21 @@ Content:
 
 26. [Animated Progress Bar](https://discord.com/channels/523663022053392405/1430909706251272283/1430909706251272283)
 
+27. [Change color based on binding/score](https://discord.com/channels/523663022053392405/1067869374410657962/threads/1427455039424954429):
+```json
+"property_bag": {
+  "#color_0": [0, 0, 0],
+  "#color_1": [1, 1, 1]
+},
+"bindings": [
+  {
+    "binding_type": "view",
+    "source_property_name": "('#color_' + (#score < 100) * 1)",
+    "target_property_name": "#color"
+  }
+]
+``` 
+
 ## Creations
 
 ### NPC Screen with Server Form Layout
